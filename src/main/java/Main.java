@@ -13,10 +13,10 @@ public class Main {
     public static void main(String[] args) {
         setup();
         System.out.println("Торжественно клянусь, что замышляю только шалость! (с)");
-        var bot = new Instalike(
+        var bot = new TwitterLike(
             credentials.getLogin(),
             credentials.getPassword(),
-            "codemika"
+            "Codemika_school"
         );
         bot.start();
     }
